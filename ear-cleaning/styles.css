@@ -336,6 +336,15 @@ a {
   max-width: 46ch;
 }
 
+.plain-list.wide li {
+  max-width: 56ch;
+}
+
+.plain-list strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .plain-list li::before {
   content: "";
   position: absolute;
